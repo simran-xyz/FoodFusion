@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+  background-image: url('https://www.foodiesfeed.com/wp-content/uploads/2019/02/messy-pizza-on-a-black-table.jpg');
+
+}
+.bg a:hover{
+    background-color:black;
+  color: white;
+}
+
+.bg{
+  overflow: hidden;
+  margin-left: 50%;
+  margin-top: -50px;
+}
+.bg a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+h2
+{
+font-size: 60px;
+}
+h2,td
+{
+color: white;
+}
+form
+{
+font-size:40px;
+margin-left:550px;
+}
+input[type=number].a
+{
+width: 60px;
+height: 25px;
+border: 1px solid darkred;
+}
+input[type=number].b
+{
+width: 235px;
+height: 25px;
+border: 1px solid darkred;
+}
+input[type=text]
+{
+width: 245px;
+height: 25px;
+border: 1px solid darkred;
+}
+.selected{
+  background-color:red;
+  color:black;
+}
+button
+{
+width:480px;
+height:30px;
+border:2px solid darkred; 
+background-color:lightgrey;
+}
+select
+{
+height: 30px;
+border: 1px solid darkred;
+}
+img.a
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+td:hover
+{
+color: yellow;
+}
+h2:hover
+{
+color:pink;
+}
+</style>
+</head>
+<body>
+ <div style="width:50%; float:right; background-color: #333; " class="bg">
+        
+             <a href="web-home.html#">  Home </a> 
+         <a href="about us.html">  About Us   </a> 
+             <a href="menu.html">  Menu </a>
+             <a class="selected" href="payment.html?">  Payment  </a>
+             <a href="feedback.html">  Feedback   </a>
+         <a href="faq.html">  FAQ      </a>
+     </div>
+<h2 style="text-align:center">Payment Information</h2>
+
+<img src="https://fusionfoods.co.in/assets/img/fflogodragon.png" width="200px" height="100px" class="a"><br>
+<br>
+
+<div class="b">
+
+<form>
+
+<table>
+
+<tr>
+<td colspan="3">Enter Name:<input type="text" placeholder="Enter your name here"></td>
+</tr>
+
+<tr>
+<td colspan="3">Card Number:<input type="text" placeholder="Enter your card number here"></td>
+</tr>
+
+<tr>
+<td colspan="3">Enter Amount:<input type="number" placeholder="Rs.---" class="b"></td>
+</tr>
+
+<tr>
+<td><label for="month">Month:</label>
+
+  <select id="Month">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+    <option>10</option>
+    <option>11</option>
+    <option>12</option>
+  </select></td>
+  
+<td><label for="year">Year:</label>
+  <select id="Year">
+    <option>2020</option>
+    <option>2021</option>
+    <option>2022</option>
+    <option>2023</option>
+    <option>2024</option>
+    <option>2025</option>
+    <option>2026</option>
+    <option>2027</option>
+    <option>2028</option>
+    <option>2029</option>
+    <option>2030</option>
+  </select></td>
+  
+<td><input type="number" placeholder="CVV" class="a"></td>
+</tr>
+
+<tr>
+<td colspan="3"><button onclick="myFunction()"><b>Order Now!!</b></button>
+
+<script>
+function myFunction()
+{
+alert("Your payment has been done successfully");
+}
+</script>
+
+</td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>

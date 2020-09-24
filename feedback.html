@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Feedback form</title>
+<style>
+img.a
+{
+position: right top;
+margin-left: 0;
+}
+.selected{
+  background-color:red;
+  color:black;
+}
+  .bg a:hover{
+  background-color:black;
+  color: white;
+}
+
+.bg{
+  overflow: hidden;
+  margin-left: 50%;
+ 
+}
+.bg a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+body{
+background-color:darkred;
+color:white;
+}
+h1{
+font-style:bold;
+text-align:center;
+font-size:50px;
+color:gold;
+}
+p{
+    font-size:20px;
+    font-style:bold;
+    margin-left:50px;
+}
+form{
+    font-size:20px;
+    margin-left:50px;
+}
+.div1{
+  background-color: #111;
+}
+.submit{
+  background-color: gold;
+  width:150px;
+  height:50px;
+  font-size: 20px;
+  border-radius:15px;
+}
+
+</style>
+</head>
+<body>
+  <div class="div1">
+   <div style="width:50%; float:right; background-color: #333; " class="bg">
+      
+         <a href="web-home.html">  Home </a> 
+         <a href="about us.html">  About Us   </a> 
+         <a href="menu.html">  Menu </a>
+         <a href="payment.html?">  Payment     </a>
+         <a class="selected" href="feedback.html">  Feedback   </a>
+        <a href="faq.html">  FAQ      </a>
+    </div> 
+   <img src="https://fusionfoods.co.in/assets/img/fflogodragon.png" class="a"  style="margin-top:-80px; width: 500px; height: 150px;" float="left"></div>
+<h1><u>Feedback Form!</u></h1>
+
+<br>
+<p>Please take a moment to tell us what you think about our website, our food, or anything else that comes to mind. <br>We welcome all of your comments and suggestions that will help us serve you better.<br>And...please visit us often!</p>
+<form>
+ <label for="name">Name*:</label><br>
+  <input type="text" id="name" name="name" ><br>
+  <br>
+  <label for="email">Email*:</label><br>
+  <input type="text" id="email" name="email" ><br>
+  <br>
+  <label for="phone">Contact*:</label><br>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+  <br>
+  
+  
+  Food Quality*:<br>
+   <input type="radio" id="excellent" name="food quality" value="excellent">
+  <label for="excellent">Excellent</label><br>
+  <input type="radio" id="good" name="food quality" value="good">
+  <label for="good">Good</label><br>
+  <input type="radio" id="average" name="food quality" value="average">
+  <label for="average">Average</label><br>
+  <input type="radio" id="dissatisfied" name="food quality" value="dissatisfied">
+  <label for="dissatisfied">Dissatisfied</label><br>
+  <br>
+
+  Cleanliness*:<br>
+  <input type="radio" id="excellent" name="cleanliness" value="excellent">
+  <label for="excellent">Excellent</label><br>
+  <input type="radio" id="good" name="cleanliness" value="good">
+  <label for="good">Good</label><br>
+  <input type="radio" id="average" name="cleanliness" value="average">
+  <label for="average">Average</label><br>
+  <input type="radio" id="dissatisfied" name="cleanliness" value="dissatisfied">
+  <label for="dissatisfied">Dissatisfied</label><br>
+  <br>
+ 
+ Service Quality*:<br>
+  <input type="radio" id="excellent" name="service quality" value="excellent">
+  <label for="excellent">Excellent</label><br>
+  <input type="radio" id="good" name="service quality" value="good">
+  <label for="good">Good</label><br>
+  <input type="radio" id="average" name="service quality" value="average">
+  <label for="average">Average</label><br>
+  <input type="radio" id="dissatisfied" name="service quality" value="dissatisfied">
+  <label for="dissatisfied">Dissatisfied</label><br>
+  <br>
+  
+  Speed of Service*:<br>
+   <input type="radio" id="excellent" name="speed of service" value="excellent">
+  <label for="excellent">Excellent</label><br>
+  <input type="radio" id="good" name="speed of service" value="good">
+  <label for="good">Good</label><br>
+  <input type="radio" id="average" name="speed of service" value="average">
+  <label for="average">Average</label><br>
+  <input type="radio" id="dissatisfied" name="speed of service" value="dissatisfied">
+  <label for="dissatisfied">Dissatisfied</label><br>
+  <br>
+  
+  Overall Experience*:<br>
+   <input type="radio" id="excellent" name="overall experience" value="excellent">
+  <label for="excellent">Excellent</label><br>
+  <input type="radio" id="good" name="overall experience" value="good">
+  <label for="good">Good</label><br>
+  <input type="radio" id="average" name="overall experience" value="average">
+  <label for="average">Average</label><br>
+  <input type="radio" id="dissatisfied" name="overall experience" value="dissatisfied">
+  <label for="dissatisfied">Dissatisfied</label><br>
+  <br>
+  
+  Any comments or suggestions?:
+  <textarea rows="4" cols="50" name="comment">
+Enter text here...</textarea><br>
+<br>
+  <input type="submit" value="SUBMIT" class="submit">
+  </form>
+</body>
+</html>

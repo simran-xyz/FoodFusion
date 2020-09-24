@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.bg a:hover{
+	background-color:black;
+  color: white;
+}
+
+.bg{
+  overflow: hidden;
+  margin-left: 50%;
+  
+}
+.bg a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.selected{
+  background-color:red;
+  color:black;
+}
+
+.zoom
+{
+transition:transform 0.2s;
+}
+.zoom:hover
+{
+transform:scale(1.08);
+}
+h1
+{
+color: yellow;
+}
+/*table,tr,td
+{
+border:2px dotted darkred;
+border-collapse: collapse;
+}*/
+td
+{
+color:green;
+padding: 8px;
+}
+.div1
+{
+background-color:darkred;
+}
+img.a
+{
+position: right top;
+}
+input[type=number]
+{
+width:30px;
+}
+button
+{
+background-color:yellow;
+height:50px;
+width:500px;
+display: block;
+margin: 10px auto;
+}
+td:hover
+{
+color:red;
+}
+h1{
+	margin-top: 20px;
+	margin-left: 5%;
+}
+</style>
+</head>
+<body>
+
+<div class="div1">
+
+<div style="width:50%; float:right; background-color: #333; " class="bg">
+    	
+    		 <a href="web-home.html#">  Home </a> 
+         <a href="about us.html">  About Us   </a> 
+    		 <a class="selected" href="menu.html">  Menu </a>
+    		 <a href="payment.html?">  Payment      </a>
+    		 <a href="feedback.html">  Feedback   </a>
+             <a href="faq.html">  FAQ      </a>
+    </div>
+<img src="https://fusionfoods.co.in/assets/img/fflogodragon.png" class="a" width=500px height=150px style="margin-top:-80px;" float="left">
+</div>
+
+<h1 style="color:darkred; ">Burgers</h1>
+<hr>
+<form>
+<table border="0" width="100%" >
+	<tr>
+		<td width="25%" align="center" class="zoom"><img src="https://i.pinimg.com/originals/37/6b/cd/376bcd7b920e19959bd41f8cbd9ab550.png" height="200px" width="250px" > </td>
+		<td width="25%" align="center" class="zoom"><img src="https://i.pinimg.com/originals/e0/15/63/e0156399c76ccaa1e987d4a248ede259.png" height="200px" width="250px"> </td>
+		<td width="25%" align="center" class="zoom"><img src="https://i.pinimg.com/originals/48/1b/e6/481be637b5277c3487e471bbffeb846b.png" height="200px" width="250px"> </td>
+		<td width="25%" align="center" class="zoom"><img src="https://i.pinimg.com/originals/b6/84/bb/b684bb3c2d82446a4011087260fb2247.png" height="200px" width="250px"> </td>
+	</tr>
+	<tr>
+<td align="center"><b>Wheat Bun<br> Paneer Burger</b><input type="checkbox"></td>
+<td align="center"><b>Aloo Tikki Burger</b><input type="checkbox"></td>
+<td align="center"><b>Mexican Burger</b><input type="checkbox"></td>
+<td align="center"><b>Spicy Chicken Burger</b><input type="checkbox"></td>
+</tr>
+<tr>
+<td align="center"><b>Price :- Rs.160</b></td>
+<td align="center"><b>Price :- Rs.130</b></td>
+<td align="center"><b>Price :- Rs.170</b></td>
+<td align="center"><b>Price :- Rs.230</b></td>
+</tr>
+<tr>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+
+</tr>
+</table>
+
+<h1 style="color:darkred; ">Pasta</h1>
+<hr>
+<table width="100%">
+<tr>
+<td width="25%" align="center" class="zoom"><img src="https://i.ytimg.com/vi/asMjxiEckXc/maxresdefault.jpg" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://images.pexels.com/photos/1460872/pexels-photo-1460872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://i.ytimg.com/vi/4q8GwxethQ0/maxresdefault.jpg" height="200px" width="250px"></td>
+
+</tr>
+<tr>
+<td align="center"><b>Red Sauce</b><input type="checkbox"></td>
+<td align="center"><b>White Sauce</b><input type="checkbox"></td>
+<td align="center"><b>Masala penne</b><input type="checkbox"></td>
+<td align="center"><b>Macaroni</b><input type="checkbox"></td>
+
+</tr>
+<tr>
+<td align="center"><b>Price :- Rs.80</b></td>
+<td align="center"><b>Price :- Rs.80</b></td>
+<td align="center"><b>Price :- Rs.80</b></td>
+<td align="center"><b>Price :- Rs.80</b></td>
+</tr>
+<tr>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+</tr>
+</table>
+
+<h1 style="color:darkred; ">Sandwiches</h1>
+<hr>
+<table width="100%">
+<tr>
+<td width="25%" align="center" class="zoom"><img src="https://c4.wallpaperflare.com/wallpaper/529/303/799/food-sandwich-wallpaper-preview.jpg" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://images6.alphacoders.com/902/thumb-350-902919.jpg" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://i.imgur.com/TcsaCek.jpg" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://mk0tw0mdal2noq6fa.kinstacdn.com/wp-content/uploads/sites/4/2016/01/04-2.jpg" height="200px" width="250px"></td>
+</tr>
+<tr>
+<td align="center"><b>Grilled Veg Sandwich</b><input type="checkbox"></td>
+<td align="center"><b>Veggie Subway</b><input type="checkbox"></td>
+<td align="center"><b>Chicken Sandwich</b><input type="checkbox"></td>
+<td align="center"><b>Cheese Sandwich</b><input type="checkbox"></td>
+</tr>
+<tr>
+<td align="center"><b>Price :- Rs.50</b></td>
+<td align="center"><b>Price :- Rs.80</b></td>
+<td align="center"><b>Price :- Rs.80</b></td>
+<td align="center"><b>Price :- Rs.60</b></td>
+</tr>
+<tr>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+</tr>
+</table>
+
+<h1 style="color:darkred; ">Appetizers</h1>
+<hr>
+<table width="100%">
+<tr>
+<td width="25%" align="center" class="zoom"><img src="https://www.foodfusion.com/wp-content/uploads/2020/01/P3750262-300x225.jpg?v=1587762603" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://www.foodfusion.com/wp-content/uploads/2018/07/ID-R00713-Mexican-Streert-Corn-Recipe-by-food-fusion-5-300x225.jpg?v=1587764765" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://www.foodfusion.com/wp-content/uploads/2020/02/Korean-chicken-skewers-Recipe-by-Food-fusion-1-300x225.jpg?v=1587762480" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://www.foodfusion.com/wp-content/uploads/2017/05/ID-R00126-1-300x225.jpg?v=1587766672" height="200px" width="250px">	</td>
+
+
+</tr>
+<tr>
+<td align="center"><b>Pasta Crackers</b><input type="checkbox"></td>
+<td align="center"><b>Mexican Sweet Corns</b><input type="checkbox"></td>
+<td align="center"><b>Korean Skewers</b><input type="checkbox"></td>
+<td align="center"><b>Macaroni and Cheese</b><input type="checkbox"></td>
+</tr>
+<tr>
+<td align="center"><b>Price :- Rs.50</b></td>
+<td align="center"><b>Price :- Rs.100</b></td>
+<td align="center"><b>Price :- Rs.80</b></td>
+<td align="center"><b>Price :- Rs.80</b></td>
+</tr>
+<tr>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+</tr>
+<tr>
+<td width="25%" align="center" class="zoom"><img src="https://www.secondrecipe.com/wp-content/uploads/2019/05/pav-bhaji.jpg" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT0nqkBcyjwdRqJydL5pEm7wzDb6PGDgu4ehg&usqp=CAU" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSjsKrAqYZq8l2pL-AO2FquySx2Rmrv5AgVKQ&usqp=CAU" height="200px" width="250px"></td>
+	<td width="25%" align="center" class="zoom"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqWKPHDuG0IGlbrUcQQvcDwnssXQzQfzWTig&usqp=CAU" height="200px" width="250px"></td>
+</tr>
+<tr>
+<td align="center"><b>Pav-bhaji</b><input type="checkbox"></td>
+<td align="center"><b>Golgappe</b><input type="checkbox"></td>
+<td align="center"><b>Spring Rolls</b><input type="checkbox"></td>
+<td align="center"><b>Noodles</b><input type="checkbox"></td>
+</tr>
+<tr>
+<td align="center"><b>Price :- Rs.60</b></td>
+<td align="center"><b>Price :- Rs.40</b></td>
+<td align="center"><b>Price :- Rs.40</b></td>
+<td align="center"><b>Price :- Rs.60</b></td>
+</tr>
+<tr>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+</tr>
+<tr>
+	<td width="25%" align="center" class="zoom"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR0M5TdUJyM_-8EqjUi-YGokdiyOWqyqDA4Hg&usqp=CAU" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTcXvZoWISACifex_uFrRRqWGNWokZP9dKMmg&usqp=CAU" height="200px" width="250px"></td>
+</tr>
+<tr>
+	<td align="center"><b>Momos</b><input type="checkbox"></td>
+<td align="center"><b>Vada Pav</b><input type="checkbox"></td>
+</tr>
+<tr>
+	<td align="center"><b>Price :- Rs.40</b></td>
+<td align="center"><b>Price :- Rs.40</b></td>
+
+</tr>
+<tr>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+	
+</tr>
+</table>
+<h1 style="color:darkred; ">Drinks</h1>
+<hr>
+<table width="100%">
+<tr>
+<td width="25%" align="center" class="zoom"><img src="https://www.foodfusion.com/wp-content/uploads/2019/02/Iced-Coffee-Recipe-by-Food-fusion-4-300x225.jpg?v=1587763931" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR61bYIwiPc3oKsAOhxNQzJSHUmcKF3wTGjjQ&usqp=CAU" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://realfood.tesco.com/media/images/RFO-1400x919-IcedTea-8e156836-69f4-4433-8bae-c42e174212c1-0-1400x919.jpg" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTpXn9tiWOGfa7HbdvIhhXatidKjcqtVNR_zg&usqp=CAU" height="200px" width="250px"></td>
+
+</tr>
+<tr>
+<td align="center"><b>Iced Coffee</b><input type="checkbox"></td>
+<td align="center"><b>Oreo Milkshake</b><input type="checkbox"></td>
+<td align="center"><b>Ice Tea</b><input type="checkbox"></td>
+<td align="center"><b>Lemonade</b><input type="checkbox"></td>
+
+</tr>
+<tr>
+<td align="center"><b>Price :- Rs.60</b></td>
+<td align="center"><b>Price :- Rs.60</b></td>
+<td align="center"><b>Price :- Rs.50</b></td>
+<td align="center"><b>Price :- Rs.40</b></td>
+</tr>
+<tr>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+</tr>
+</table>
+
+<h1 style="color:darkred; ">Desserts</h1>
+<hr>
+<table width="100%">
+<tr>
+<td width="25%" align="center" class="zoom"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQhFOvOvoADISyc1KsQoXAJnt1uWUJ29-XUSw&usqp=CAU" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://www.foodfusion.com/wp-content/uploads/2019/01/Cheesy-Chocolate-Donuts-Recipe-by-Food-fusion-2-300x225.jpg?v=1587764165" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://www.foodfusion.com/wp-content/uploads/2019/03/Tres-Leches-Cake-Recipe-by-Food-fusion-4-300x225.jpg?v=1587763861" height="200px" width="250px"></td>
+<td width="25%" align="center" class="zoom"><img src="https://www.foodfusion.com/wp-content/uploads/2020/05/Shahi-tukra-Lasagna-Recipe-by-Food-fusion-2-300x225.jpg?v=1589614880" height="200px" width="250px"></td>
+
+</tr>
+<tr>
+<td align="center"><b>Brownie</b><input type="checkbox"></td>
+<td align="center"><b>Doughnut Rolls</b><input type="checkbox"></td>
+<td align="center"><b>Tres Leches Cake</b><input type="checkbox"></td>
+<td align="center"><b>Shahi Tukda Lasagna</b><input type="checkbox"></td>
+
+</tr>
+<tr>
+<td align="center"><b>Price :- Rs.100</b></td>
+<td align="center"><b>Price :- Rs.80</b></td>
+<td align="center"><b>Price :- Rs.80</b></td>
+<td align="center"><b>Price :- Rs.100</b></td>
+</tr>
+<tr>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+<td align="center"><b>Quantity</b><input type="number"></td>
+</tr>
+</table><br><br>
+<button onclick="myFunction()"><h3>Place Order!!</h3></button>
+<script>
+function myFunction()
+{
+alert("Your order has been placed..");
+}
+</script>
+</form>
+</body>
+</html>
